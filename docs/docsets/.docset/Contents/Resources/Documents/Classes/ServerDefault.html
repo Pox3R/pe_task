@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ServerDefault Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ServerDefault" class="dashAnchor"></a>
+    <a title="ServerDefault Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ServerDefault Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ServerDefault.html">ServerDefault</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServerFactory.html">ServerFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/XMLToYAMLConverter.html">XMLToYAMLConverter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ConverterError.html">ConverterError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ServerFactoryError.html">ServerFactoryError</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/Server.html">Server</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ServerDefault</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">ServerDefault</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/Server.html">Server</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Class for handling HTTP POST requests.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Private%20properties"></a>
+                <a name="//apple_ref/swift/Section/Private properties" class="dashAnchor"></a>
+                <a href="#/Private%20properties">
+                  <h3 class="section-name">Private properties</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC6router33_7A76566FADD442A93A83FF91A86D7B24LL6Kitura6RouterCvp"></a>
+                    <a name="//apple_ref/swift/Property/router" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC6router33_7A76566FADD442A93A83FF91A86D7B24LL6Kitura6RouterCvp">router</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Kitura.Router instance.</p>
+<div class="aside aside-see-also">
+    <p class="aside-title">See also</p>
+    <a href="https://ibm-swift.github.io/Kitura/Classes/Router.html">Kitura.Router</a>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">router</span><span class="p">:</span> <span class="kt">Router</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC4port33_7A76566FADD442A93A83FF91A86D7B24LLSivp"></a>
+                    <a name="//apple_ref/swift/Property/port" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC4port33_7A76566FADD442A93A83FF91A86D7B24LLSivp">port</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bound port</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">port</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initializers"></a>
+                <a name="//apple_ref/swift/Section/Initializers" class="dashAnchor"></a>
+                <a href="#/Initializers">
+                  <h3 class="section-name">Initializers</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC4portACSi_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(port:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC4portACSi_tcfc">init(port:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This initializer does nothing but configure routes.
+Please use <code><a href="../Classes/ServerDefault.html#/s:7pi_task13ServerDefaultC5startyyF">ServerDefault.start()</a></code> to run your server.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+
+<p>Initialize a <code>ServerDefault</code> instance.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">server</span> <span class="o">=</span> <span class="kt">ServerDefault</span><span class="p">(</span><span class="nv">port</span><span class="p">:</span> <span class="mi">80</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+</code></pre>
+<h3 id='parameters' class='heading'>Parameters:</h3>
+
+<ul>
+<li><code><a href="../Classes/ServerDefault.html#/s:7pi_task13ServerDefaultC4port33_7A76566FADD442A93A83FF91A86D7B24LLSivp">port</a></code>: An integer value corresponds to the port you are willing to bind.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">port</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20methods"></a>
+                <a name="//apple_ref/swift/Section/Public methods" class="dashAnchor"></a>
+                <a href="#/Public%20methods">
+                  <h3 class="section-name">Public methods</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC5startyyF"></a>
+                    <a name="//apple_ref/swift/Method/start()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC5startyyF">start()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Use it to start the server. You can use it directly after creating <code>ServerDefault</code> instance.</p>
+<h3 id='usage-example' class='heading'>Usage Example:</h3>
+
+<p>Initialize a <code>ServerDefault</code> instance and run it.</p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">server</span> <span class="o">=</span> <span class="kt">ServerDefault</span><span class="p">(</span><span class="nv">port</span><span class="p">:</span> <span class="mi">80</span><span class="p">)</span>
+<span class="n">server</span><span class="o">.</span><span class="nf">start</span><span class="p">()</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">start</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC4stopyyF"></a>
+                    <a name="//apple_ref/swift/Method/stop()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC4stopyyF">stop()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Use it to stop the server. Reasonable to call after <code><a href="../Classes/ServerDefault.html#/s:7pi_task13ServerDefaultC5startyyF">ServerDefault.start()</a></code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stop</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Private%20routes%20implementation"></a>
+                <a name="//apple_ref/swift/Section/Private routes implementation" class="dashAnchor"></a>
+                <a href="#/Private%20routes%20implementation">
+                  <h3 class="section-name">Private routes implementation</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC15configureRouter33_7A76566FADD442A93A83FF91A86D7B24LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/configureRouter()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC15configureRouter33_7A76566FADD442A93A83FF91A86D7B24LLyyF">configureRouter()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to make some preparaion:</p>
+
+<ul>
+<li>adding <a href="https://github.com/IBM-Swift/Kitura/blob/master/Sources/Kitura/bodyParser/BodyParser.swift">Kitura.BodyParser</a> for incoming POST requests</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">configureRouter</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7pi_task13ServerDefaultC23configureXMLAcceptRoute33_7A76566FADD442A93A83FF91A86D7B24LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/configureXMLAcceptRoute()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7pi_task13ServerDefaultC23configureXMLAcceptRoute33_7A76566FADD442A93A83FF91A86D7B24LLyyF">configureXMLAcceptRoute()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to configure accept incomming POST requests with XML body.
+Response contains <code>200 - OK</code> code and YAML-formatted data if XML is valid. Otherwise, it returns <code>400 - Bad Request</code> code.</p>
+<h3 id='example' class='heading'>Example:</h3>
+<h4 id='request' class='heading'>Request</h4>
+<pre class="highlight swift"><code><span class="kt">POST</span> <span class="o">/</span>
+</code></pre>
+
+<p>Body:</p>
+<pre class="highlight xml"><code><span class="nt">&lt;person&gt;</span>
+    <span class="nt">&lt;name&gt;</span>Eldar Goloviznin<span class="nt">&lt;/name&gt;</span>
+    <span class="nt">&lt;email&gt;</span>radleweird@gmail.com<span class="nt">&lt;/email&gt;</span>
+<span class="nt">&lt;/person&gt;</span>
+</code></pre>
+<h4 id='response' class='heading'>Response</h4>
+<pre class="highlight swift"><code><span class="kt">Status</span><span class="p">:</span> <span class="mi">200</span> <span class="o">-</span> <span class="kt">OK</span>
+</code></pre>
+
+<p>Body:</p>
+<pre class="highlight yaml"><code><span class="na">person</span><span class="pi">:</span>
+ <span class="na">email</span><span class="pi">:</span> <span class="s">radleweird@gmail.com</span>
+ <span class="na">name</span><span class="pi">:</span> <span class="s">Eldar Goloviznin</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">configureXMLAcceptRoute</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2018-12-13)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

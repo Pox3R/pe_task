@@ -1,0 +1,6 @@
+framework module CHTTPParser {
+  umbrella header "CHTTPParser.h"
+
+  export *
+  module * { export * }
+}

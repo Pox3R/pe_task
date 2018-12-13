@@ -1,0 +1,1 @@
+xcodebuild_arguments: [-project, pi_task.xcodeproj, -scheme, pi_task]

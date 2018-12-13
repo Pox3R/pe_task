@@ -1,0 +1,19 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/eldargoloviznin/Documents/GitHub/pi_task/Sources/pi_task/Utils/XMLToYAMLConverter.swift",
+      "line": null,
+      "symbol": "XMLToYAMLConverter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/eldargoloviznin/Documents/GitHub/pi_task/Sources/pi_task/Utils/XMLToYAMLConverter.swift",
+      "line": 18,
+      "symbol": "XMLToYAMLConverter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/eldargoloviznin/Documents/GitHub/pi_task"
+}
