@@ -7,7 +7,7 @@
 import Foundation
 import SWXMLHash
 
-/// An error that can occur on `ServerFactory.create(port: Int)` method calling.
+/// An error that can occur on `XMLToYAMLConverter.convertToYAML(fromXML xml: String)` method calling.
 fileprivate enum ConverterError: String, Error {
     
     /// There are no XML root in the input.
