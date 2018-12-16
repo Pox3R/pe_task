@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "2740eccbf4c7c3c77cd499b09b31ffff"
-build_time: [1544972278, 691192000]
-inputs:
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSocket.git--1054369442331894738/Sources/Socket/Socket.swift": [1544972276, 0]
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSocket.git--1054369442331894738/Sources/Socket/SocketProtocols.swift": [1544972276, 0]
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSocket.git--1054369442331894738/Sources/Socket/SocketUtils.swift": [1544972276, 0]

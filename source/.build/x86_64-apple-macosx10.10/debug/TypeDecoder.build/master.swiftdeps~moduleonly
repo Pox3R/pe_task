@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "37c4092d55be5806a66c2fd72a38a2f7"
-build_time: [1544963911, 188097000]
-inputs:
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/TypeDecoder.git--6332489397587809876/Sources/TypeDecoder/OrderedDictionary.swift": [1544963909, 0]
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/TypeDecoder.git--6332489397587809876/Sources/TypeDecoder/TypeDecoder.swift": [1544963909, 0]

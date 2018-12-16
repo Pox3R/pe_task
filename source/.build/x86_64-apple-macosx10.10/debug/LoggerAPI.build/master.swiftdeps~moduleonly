@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "dca7a7102e1f1c706d78561823d87f0e"
-build_time: [1544963912, 584424000]
-inputs:
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/LoggerAPI.git-4531320664901142378/Sources/LoggerAPI/Logger.swift": [1544963909, 0]

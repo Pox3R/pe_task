@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "426d06e5ce4cb362e07c5294b43f1001"
-build_time: [1544963912, 319606000]
-inputs:
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/SWXMLHash.git-5274487873991426686/Source/SWXMLHash+TypeConversion.swift": [1544963908, 0]
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/SWXMLHash.git-5274487873991426686/Source/SWXMLHash.swift": [1544963908, 0]
-  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/SWXMLHash.git-5274487873991426686/Source/shim.swift": [1544963908, 0]
