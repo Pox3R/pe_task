@@ -55,7 +55,6 @@ employees:
    photo: http://thewallmachine.com/files/1411921557.jpg
    id: 3
    lastName: Roshan
-
 ```
 ## How to start the server
 1. Download sources
