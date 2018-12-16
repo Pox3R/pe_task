@@ -82,7 +82,7 @@ private extension ServerDefault {
     }
     
     /**
-     Used to configure accept incomming POST requests with XML body.
+     Used to configure accept incomming POST on `/convert` requests with XML body.
      Response contains `200 - OK` code and YAML-formatted data if XML is valid. Otherwise, it returns `400 - Bad Request` code.
      
      ### Example: ###
@@ -109,7 +109,7 @@ private extension ServerDefault {
      ```
     */
     func configureXMLAcceptRoute() {
-        router.post("/") { request, response, next in
+        router.post("/convert") { request, response, next in
             defer {
                 next()
             }

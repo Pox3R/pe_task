@@ -15,12 +15,6 @@ docker {
 task serverDocker(type: Docker) {
 	applicationName = "radleweird/server"
 	exposePort 80
-	addFile('source/', 'source/')
-
-	runCommand 'apt-get update'
-	runCommand 'apt-get -y install clang libicu-dev libpython2.7'	
-	runCommand 'apt-get -y install libssl-dev'
-	runCommand 'apt-get -y install libcurl4-openssl-dev'
-	runCommand 'cd source'
-	runCommand 'swift build'	
+	addFile('source/', '/')
+	runCommand 'swift build'
 }

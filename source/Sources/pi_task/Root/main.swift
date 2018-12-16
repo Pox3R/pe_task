@@ -1,5 +1,7 @@
 import Foundation
 
+print("HIIIIIIIII")
+
 do {
     let server = try ServerFactory.create(port: 80)
     server.start()
