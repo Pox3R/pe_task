@@ -1,7 +1,7 @@
 # Simple service for converting given XML to YAML
 ## Example
 ### Documentation
-Checkout docs from /docs folder
+Check out docs from /docs folder
 ### Request example
 ```
 POST convert/
