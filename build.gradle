@@ -15,6 +15,7 @@ docker {
 task serverDocker(type: Docker) {
 	applicationName = "radleweird/server"
 	exposePort 80
-	addFile('source/', '/')
+	addFile('source/', 'source/')
+	workingDir('source')
 	runCommand 'swift build'
 }

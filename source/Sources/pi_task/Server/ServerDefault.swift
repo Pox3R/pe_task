@@ -114,14 +114,14 @@ private extension ServerDefault {
                 next()
             }
             
-            guard let body = request.body?.asText else {
+            guard let body = request.body?.asRaw, let xmlString = String(data: body, encoding: .utf8) else {
                 response.status(.badRequest)
                 return
             }
             
             var yaml: String
             do {
-                yaml = try XMLToYAMLConverter.convertToYAML(fromXML: body)
+                yaml = try XMLToYAMLConverter.convertToYAML(fromXML: xmlString)
             } catch _ {
                 response.status(.badRequest)
                 return
