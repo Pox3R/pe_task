@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/master.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSSLService.git--3156242087564614434/Sources/SSLService/SSLPointerTricks.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLPointerTricks.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLPointerTricks.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLPointerTricks~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLPointerTricks.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSSLService.git--3156242087564614434/Sources/SSLService/SSLService.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLService.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLService.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLService~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SSLService.build/SSLService.swiftdeps"
+  }
+}

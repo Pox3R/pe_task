@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/master.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/BodyDecoder.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyDecoder.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyDecoder.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyDecoder.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/BodyEncoder.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyEncoder.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyEncoder.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyEncoder.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/BodyFormat.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyFormat.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyFormat.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyFormat~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/BodyFormat.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/ClosureAliases.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/ClosureAliases.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/ClosureAliases.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/ClosureAliases~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/ClosureAliases.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/CodableQuery/Coder.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Coder.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/CodableQuery/Coder.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Coder~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Coder.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/CodableQuery/Extensions.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Extensions.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/CodableQuery/Extensions.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Extensions.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/CodableQuery/QueryDecoder.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/QueryDecoder.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/CodableQuery/QueryDecoder.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/QueryDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/QueryDecoder.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/CodableQuery/QueryEncoder.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/QueryEncoder.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/CodableQuery/QueryEncoder.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/QueryEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/QueryEncoder.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/KituraContracts.git--3074271898985018272/Sources/KituraContracts/Contracts.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Contracts.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Contracts.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Contracts~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/KituraContracts.build/Contracts.swiftdeps"
+  }
+}

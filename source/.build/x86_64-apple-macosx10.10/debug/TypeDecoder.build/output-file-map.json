@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/master.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/TypeDecoder.git--6332489397587809876/Sources/TypeDecoder/OrderedDictionary.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/OrderedDictionary.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/OrderedDictionary.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/OrderedDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/OrderedDictionary.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/TypeDecoder.git--6332489397587809876/Sources/TypeDecoder/TypeDecoder.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/TypeDecoder.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/TypeDecoder.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/TypeDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/TypeDecoder.build/TypeDecoder.swiftdeps"
+  }
+}

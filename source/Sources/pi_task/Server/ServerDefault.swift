@@ -13,7 +13,7 @@ final class ServerDefault: Server {
     // MARK: - Private properties
     
     /**
-     Kitura.Router instance.
+     Kitura.Router instance. Used to handle incomming HTTP requests.
      
      - SeeAlso:
         [Kitura.Router](https://ibm-swift.github.io/Kitura/Classes/Router.html)
@@ -27,7 +27,7 @@ final class ServerDefault: Server {
     
     /**
      This initializer does nothing but configure routes.
-     Please use `ServerDefault.start()` to run your server.
+     Use `ServerDefault.start()` to run your server.
      
      ### Usage Example: ###
      Initialize a `ServerDefault` instance.
@@ -75,7 +75,7 @@ private extension ServerDefault {
     
     /**
      Used to make some preparaion:
-     - adding [Kitura.BodyParser](https://github.com/IBM-Swift/Kitura/blob/master/Sources/Kitura/bodyParser/BodyParser.swift) for incoming POST requests
+     - adding [Kitura.BodyParser](https://ibm-swift.github.io/Kitura/Classes/BodyParser.html) for incoming POST requests
      */
     func configureRouter() {
         router.post(middleware: BodyParser())
@@ -88,7 +88,11 @@ private extension ServerDefault {
      ### Example: ###
      #### Request ####
      ```
-     POST /
+     POST /convert
+     ```
+     Headers:
+     ```
+     Content-Type: application/xml
      ```
      Body:
      ```xml

@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "d6a6525cebbd996128e0d5a973432916"
+build_time: [1544972321, 648237000]
+inputs:
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Root/main.swift": [1544972316, 0]
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Server/Server.swift": [1544963806, 0]
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Server/ServerDefault.swift": [1544971923, 0]
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Server/ServerFactory.swift": [1544971776, 0]
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Utils/XMLToYAMLConverter.swift": [1544972211, 0]

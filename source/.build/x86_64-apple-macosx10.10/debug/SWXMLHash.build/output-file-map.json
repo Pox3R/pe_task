@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/master.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/SWXMLHash.git-5274487873991426686/Source/SWXMLHash+TypeConversion.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash+TypeConversion.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash+TypeConversion~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash+TypeConversion.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/SWXMLHash.git-5274487873991426686/Source/SWXMLHash.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/SWXMLHash.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/SWXMLHash.git-5274487873991426686/Source/shim.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/shim.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/shim.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/shim~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/SWXMLHash.build/shim.swiftdeps"
+  }
+}

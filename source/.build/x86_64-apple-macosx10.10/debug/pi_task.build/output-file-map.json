@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/master.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Root/main.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/main.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Root/main.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/main.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Server/Server.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Server.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Server/Server.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Server~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Server.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Server/ServerDefault.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/ServerDefault.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Server/ServerDefault.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/ServerDefault~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/ServerDefault.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Server/ServerFactory.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/ServerFactory.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Server/ServerFactory.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/ServerFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/ServerFactory.swiftdeps"
+  },
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/Sources/pi_task/Utils/XMLToYAMLConverter.swift": {
+    "dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/XMLToYAMLConverter.d",
+    "object": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/Utils/XMLToYAMLConverter.swift.o",
+    "swiftmodule": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/XMLToYAMLConverter~partial.swiftmodule",
+    "swift-dependencies": "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/x86_64-apple-macosx10.10/debug/pi_task.build/XMLToYAMLConverter.swiftdeps"
+  }
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4b82d1fb9bc581c11f16dfaa64cb4d4e"
+build_time: [1544963917, 439581000]
+inputs:
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSSLService.git--3156242087564614434/Sources/SSLService/SSLPointerTricks.swift": [1544963909, 0]
+  "/Users/eldargoloviznin/Documents/GitHub/pe_task/source/.build/checkouts/BlueSSLService.git--3156242087564614434/Sources/SSLService/SSLService.swift": [1544963909, 0]

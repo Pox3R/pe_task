@@ -10,15 +10,17 @@ import SWXMLHash
 /// An error that can occur on `XMLToYAMLConverter.convertToYAML(fromXML xml: String)` method calling.
 fileprivate enum ConverterError: String, Error {
     
-    /// There are no XML root in the input.
+    /// There is no XML root in the input.
     case badInput
+    /// There is no element in the node
+    case elementNotFound
     
 }
 
 /// Class for building YAML-formatted string of given XML-formatted string.
 final class XMLToYAMLConverter {
     
-    /// There are no reason to create `XMLToYAMLConverter` instance directly.
+    /// There is no reason to create `XMLToYAMLConverter` instance directly.
     private init() {
         fatalError("ServerFactory should not be called directly")
     }
@@ -31,7 +33,9 @@ final class XMLToYAMLConverter {
      - Parameters:
         - xml: XML-formatted string.
      
-     - Throws: `ConverterError.badInput` if `xml` is invalid.
+     - Throws:
+        - `ConverterError.badInput`:  if `xml` is invalid.
+        - `ConverterError.elementNotFound`: if element not found
      
      - Returns: YAML-formatted string of given XML input.
      */
@@ -55,22 +59,24 @@ private extension XMLToYAMLConverter {
      Recursively called to build YAML-formatted string.
      
      - Parameters:
-        - indexer: Indexer of current level root elemtn.
+        - indexer: Indexer of current level root element.
         - level: An integer, which used to create prefix of `level` whitespaces.
         - shouldPrintName: A bool, which used to determine if `indexer` name should be printed, e.g. where given `indexer` is an element of list.
      
-     - Throws: `ConverterError.badInput` if `xml` is invalid.
+     - Throws:
+         - `ConverterError.badInput`:  if `xml` is invalid.
+         - `ConverterError.elementNotFound`: if element not found.
      
      - Returns: YAML-formatted string of given XML input.
      */
     static func process(indexer: XMLIndexer, level: Int = 0, shouldPrintName: Bool = true) throws -> String {
         guard let element = indexer.element else {
-            throw ConverterError.badInput
+            throw ConverterError.elementNotFound
         }
         
         let childrenDictionary = try indexer.children.reduce(into: [String: [XMLIndexer]]()) { dictionary, indexer in
             guard let element = indexer.element else {
-                throw ConverterError.badInput
+                throw ConverterError.elementNotFound
             }
             
             var indexers = dictionary[element.name] ?? []
