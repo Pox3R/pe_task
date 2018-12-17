@@ -20,9 +20,9 @@ fileprivate enum ConverterError: String, Error {
 /// Class for building YAML-formatted string of given XML-formatted string.
 final class XMLToYAMLConverter {
     
-    /// There is no reason to create `XMLToYAMLConverter` instance directly.
+    /// There is no reason to create instance of `XMLToYAMLConverter`.
     private init() {
-        fatalError("ServerFactory should not be called directly")
+        fatalError("XMLToYAMLConverter should not be initialized")
     }
     
     // MARK: - Public methods

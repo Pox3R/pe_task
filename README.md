@@ -88,7 +88,7 @@ cat build/docker/Dockerfile
 1. Download Postman from ```https://www.getpostman.com/```
 2. Configure POST request
    1. Choose the POST method
-   2. Enter ```localhost:80/convert```, replace ```localhost``` with ip address of your machine where server working on
+   2. Enter ```localhost:80/convert```, replace ```localhost``` with ip address of your machine where server is working on
    3. Set content type to ```application/xml``` within **Body** request settings
    4. Paste your XML data
    5. Push the **Send** button

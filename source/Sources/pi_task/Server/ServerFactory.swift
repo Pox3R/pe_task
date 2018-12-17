@@ -17,9 +17,9 @@ private enum ServerFactoryError: String, Error {
 /// Class for returning implementation of `Server` protocol. Use it to build your server.
 final class ServerFactory {
     
-    /// There is no reason to create `ServerFactory` instance directly.
+    /// There is no reason to create instance of `ServerFactory`.
     private init() {
-        fatalError("ServerFactory should not be called directly")
+        fatalError("ServerFactory should not be initialized")
     }
     
     // MARK: Public methods
